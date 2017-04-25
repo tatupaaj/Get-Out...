@@ -16,7 +16,8 @@
         <StackPanel HorizontalAlignment="Center">
             <TextBlock x:Name="txbGetOut" Text="Get Out..." FontSize="50" HorizontalAlignment="Center" Foreground="#FF0C0C0C"/>
             <StackPanel Width="500" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock x:Name="txbInfo" Text="Congratulations! You escaped the evil teacher." TextWrapping="Wrap" FontSize="20" Margin="30,10" Height="60" />
+                <TextBlock x:Name="txbpam" Text="PAM!" TextAlignment="Center" FontSize="30" />
+                <TextBlock x:Name="txbInfo" Text="You opend the final door but what happend?  The game ends here." TextAlignment="Center" TextWrapping="Wrap" FontSize="20" Margin="30,10" Height="60" />
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="btnExit" Content="Exit" FontSize="20" Margin="225,20,50,20" Width="50" Height="30" Click="btnExit_Click" Cursor="Pen" >
                         <Button.Background>
